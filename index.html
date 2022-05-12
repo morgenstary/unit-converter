@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=block" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Unit Converter</title>
+</head>
+
+<body>
+    <div id="dark-initial">
+        <div id="di-main">
+            <div id="di-background"></div>
+            <div id="di-heading">Metric/Imperial unit conversion</div>
+            <input id="number" oninput="valid(this)" type="text" maxlength="3" autofocus="autofocus">
+            <div id="error"></div>
+        </div>
+        <div id="di-results">
+            <div id="di-conv-res-top">
+                <div id="di-conv-res-st-header-top">Length (Meters/Feet)</div>
+                <div id="di-conv-res-st-top">0 Meters = 0.000 feet | 0 feet = 0.000 meters</div>
+            </div>
+            <div id="di-conv-res-mid">
+                <div id="di-conv-res-st-header-mid">Volume (Liters/Gallons)</div>
+                <div id="di-conv-res-st-mid">0 Liters = 0.000 gallons | 0 gallons = 0.000 liters</div>
+            </div>
+            <div id="di-conv-res-btm">
+                <div id="di-conv-res-st-header-btm">Mass (Kilograms/Pounds)</div>
+                <div id="di-conv-res-st-btm">0 Kilos = 0.000 pounds | 0 pounds = 0.000 kilos</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

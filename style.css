@@ -1,0 +1,239 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 1345px;
+    height: 1351px;
+    background: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+
+}
+
+/* dark-initial */
+#dark-initial {
+    width: 550px;
+    height: 550px;
+    left: 89px;
+    top: 718px;
+    background: #1F2937;
+}
+
+/* dark initial results */
+#di-results {
+    position: absolute;
+    width: 346px;
+    height: 215px;
+    left: 102px;
+    top: 297px;
+}
+
+/* dark initial conversion results top */
+#di-conv-res-top {
+    width: 346px;
+    height: 75px;
+    left: 102px;
+    top: 297px;
+    margin: 0px 0px 10px 0px
+}
+
+/* dark initial conversion results supporting text top */
+#di-conv-res-st-top {
+    width: 394px;
+    height: 25px;
+    left: 102px;
+    top: 327px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #D2D2D2;
+    margin: 0px 0px 0px -20px;
+}
+
+/* dark initial conversion results supporting text header top */
+#di-conv-res-st-header-top {
+    width: 346px;
+    height: 35px;
+    left: 102px;
+    top: 297px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* dark initial conversion results mid */
+#di-conv-res-mid {
+    width: 346px;
+    height: 75px;
+    left: 102px;
+    top: 379px;
+    margin: 0px 0px 10px 0px
+}
+
+/* dark initial conversion results supporting text mid */
+#di-conv-res-st-mid {
+    width: 394px;
+    height: 25px;
+    left: 102px;
+    top: 409px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #D2D2D2;
+    margin: 0px 0px 0px -20px;
+}
+
+/* dark initial conversion results supporting text header mid */
+#di-conv-res-st-header-mid {
+    width: 346px;
+    height: 35px;
+    left: 102px;
+    top: 379px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* dark initial conversion results btm */
+#di-conv-res-btm {
+    width: 346px;
+    height: 51px;
+    left: 102px;
+    top: 461px;
+}
+
+/* dark initial conversion results supporting text btm */
+#di-conv-res-st-btm {
+    width: 394px;
+    height: 21px;
+    left: 102px;
+    top: 491px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #D2D2D2;
+    margin: 0px 0px 0px -20px;
+}
+
+/* dark initial conversion results supporting text header btm */
+#di-conv-res-st-header-btm {
+    width: 346px;
+    height: 35px;
+    left: 102px;
+    top: 461px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* dark initial main */
+#di-main {
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+}
+
+/* dark initial background */
+#di-background {
+    width: 550px;
+    height: 260px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+}
+
+/* dark initial number to convert */
+#di-num {
+    position: absolute;
+    width: 211px;
+    height: 51.23px;
+    left: 169px;
+    top: 155px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* dark initial heading */
+#di-heading {
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    top: 53px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+/* error */
+#error {
+    position: absolute;
+    width: 448.4px;
+    height: 38px;
+    left: 51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    background: transparent;
+}
+
+#number {
+    background: transparent;
+    color: white;
+    border: none;
+    position: absolute;
+    width: 211px;
+    left: 169px;
+    top: 110px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 97.5723px;
+    line-height: 24px;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
